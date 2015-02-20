@@ -1,4 +1,4 @@
-![](src/main/webapp/resources/img/newlogolight250.png)
+![](src\main\webapp\resources\img\logo.png)
 ========
 ZLOGGER
 
