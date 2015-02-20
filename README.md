@@ -1,4 +1,4 @@
-# ![](https://psv4.vk.me/c612026/u104010542/docs/f69f620215f4/logo.png)
+# ![](https://github.com/iliasauer/zlogger/blob/master/src/main/webapp/resources/img/default.png?raw=true)
 ========
 ZLOGGER
 
