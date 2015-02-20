@@ -1,6 +1,6 @@
-# ![](https://github.com/iliasauer/zlogger/blob/master/src/main/webapp/resources/img/default.png?raw=true)
+![](https://github.com/iliasauer/zlogger/blob/master/src/main/webapp/resources/img/default.png?raw=true)
 ========
-ZLOGGER
+# ZLOGGER
 
 Blog platform project
 
