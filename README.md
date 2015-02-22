@@ -1,4 +1,4 @@
-# ![](https://psv4.vk.me/c612826/u104010542/docs/aac4cbaad384/default.png)
+![](https://psv4.vk.me/c612826/u104010542/docs/aac4cbaad384/default.png)
 ========
 ZLOGGER
 
