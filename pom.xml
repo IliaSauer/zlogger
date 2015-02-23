@@ -31,7 +31,8 @@
 
         <timestamp>${maven.build.timestamp}</timestamp>
         <maven.build.timestamp.format>dd/MM/yy H:mm</maven.build.timestamp.format>
-        <sonar.exclusions>**/*tinymce.js,**/*.css,src/test/**/*</sonar.exclusions>
+        <!--<sonar.exclusions>**/*tinymce.js,**/*.css,src/test/**/*</sonar.exclusions>-->
+        <sonar.exclusions>**/*tinymce.js,**/*.css</sonar.exclusions>
 
         <sonar.jacoco.itReportPath>${project.basedir}/../target/jacoco-it.exec</sonar.jacoco.itReportPath>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
