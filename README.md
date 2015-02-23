@@ -1,4 +1,4 @@
-![](src\main\webapp\resources\img\default.jpg)
+![](https://raw.githubusercontent.com/iliasauer/zlogger/cb9f1768d606e54627ebcfb38351ce4d23263d81/src/main/webapp/resources/img/default.png)
 ========
 # ZLOGGER
 
