@@ -40,10 +40,12 @@ public class AuthenticationServiceImpl implements AuthenticationService {
 
     @Override
     public boolean isValidIdentity(String username, String password) {
-        return !(username == null || username.isEmpty()
-                || password == null || password.isEmpty()
-                || password.length() < MINIMAL_PASSWORD_LENGTH
-                || username.length() < MINIMAL_USERNAME_LENGTH
-                || username.length() > MAXIMAL_USERNAME_LENGTH);
+        boolean isNotNullName = ((username != null) && (!username.isEmpty()));
+        boolean isNotNullPass = ((password != null) && (!password.isEmpty()));
+        boolean isCorrectLength = ((MINIMAL_USERNAME_LENGTH < username.length())
+                && (username.length() < MAXIMAL_USERNAME_LENGTH)
+                && (MINIMAL_PASSWORD_LENGTH < password.length()));
+
+        return isNotNullName && isNotNullPass && isCorrectLength;
     }
 }
